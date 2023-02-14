@@ -13,8 +13,7 @@
     'use strict';
 
     // Your code here...
-    setTimeout(1000, alert("Hello"));
-    document.getElementById('title').innerText = 'Something else - 2';
+    document.getElementById('title').innerText = 'Title changed with userscript';
     document.getElementById('text1').innerText = 'Changed with userscript';
     document.getElementById('text2').innerText = 'Changed with userscript';
     document.getElementById('text3').innerText = 'Changed with userscript';
